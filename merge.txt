@@ -1,0 +1,31 @@
+This is on master
+Added this line from master
+
+[Adding this from dev branch]
+1st I created a file on master with the 1st line
+*
+Then branched out to the branch dev
+   dev   *
+        /
+master *
+Modified the 1st line as "This is on dev"
+   dev   * - *
+        /
+master *
+Switched back to master, added the 2nd line
+   dev   * - *
+        /
+master * - *
+Switched back to dev, tried running git merge master, conflicts, aborted
+Modified the 1st line of file on dev manually to match master
+   dev   * - * - *
+        /
+master * - *
+Then ran git merge master on dev, no conflicts
+   dev   * - * - * - *
+        /   ________/
+master * - *
+Note that the merge operation itself creates a new commit.
+If you run git log on dev you'll see 5 commits -- 1 common commit after which dev branched off,
+then 1st commit of dev, then 2nd commit of master, then edit commit of dev, then the merge commit
+Finally, I am going to commit this explanation too.
