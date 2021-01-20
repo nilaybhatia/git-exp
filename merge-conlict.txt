@@ -1,1 +1,6 @@
-Writing this from master
+Writing this from dev
+
+Created a new file on master with the line "Writing this from master"
+Then checked out new branch dev (after deleting the old one) and changed the above line
+to "Writing this from dev" and adding this explanation. Now will commit
+What happens after switching to master and running git merge dev?
