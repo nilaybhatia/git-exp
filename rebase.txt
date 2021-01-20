@@ -6,3 +6,6 @@ Now checked out a new branch and edited the word master to dev
 in the above line and adding these explanatory line. Now will commit
 these changes. What happens when I checkout master and run git rebase dev?
 
+[Writing from master]
+Same as that with merge, changes of master are overwritten by changes from dev.
+What about making changes in master and checking out dev and running git rebase master?
