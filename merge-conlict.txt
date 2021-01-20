@@ -4,3 +4,9 @@ Created a new file on master with the line "Writing this from master"
 Then checked out new branch dev (after deleting the old one) and changed the above line
 to "Writing this from dev" and adding this explanation. Now will commit
 What happens after switching to master and running git merge dev?
+
+[Writing from master]
+Merging dev into master does not give a merge conlict on the 1st line
+though master had the word 'master' and dev had 'dev'. It keeps the word 'dev'
+and also other lines that were added. So changes on master are overwritten by merging dev,
+which is not good.
