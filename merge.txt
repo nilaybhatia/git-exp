@@ -29,3 +29,17 @@ Note that the merge operation itself creates a new commit.
 If you run git log on dev you'll see 5 commits -- 1 common commit after which dev branched off,
 then 1st commit of dev, then 2nd commit of master, then edit commit of dev, then the merge commit
 Finally, I am going to commit this explanation too.
+
+[Adding this from master]
+Switched to master and ran git merge dev. Ofc no conflicts. It says "Fast forward", which
+makes sense because master was behind and dev had a few commits so now master has
+all commits of dev and has caught up.
+                         |> the commit explaining merge
+   dev   * - [* - * - * - *]
+        /      \   \   \   \
+master * - * - [*   *   *   *]
+No new commit is created.
+Now commiting this explanation from master. Would look like this
+   dev   * - * - * - * - *
+        /              
+master * - * - [*   *   *   *] - *
