@@ -13,3 +13,5 @@ What about making changes in master and checking out dev and running git rebase 
 [Writing from dev]
 There weren't merge conflicts so just the lines got added. 
 Now I'll commit this, switch back to master and ...
+make a conflicting change, and run git rebase master after switching back to dev
+Ok, same as merge, got a merge conflict, aborted.
