@@ -9,3 +9,7 @@ these changes. What happens when I checkout master and run git rebase dev?
 [Writing from master]
 Same as that with merge, changes of master are overwritten by changes from dev.
 What about making changes in master and checking out dev and running git rebase master?
+
+[Writing from dev]
+There weren't merge conflicts so just the lines got added. 
+Now I'll commit this, switch back to master and ...
