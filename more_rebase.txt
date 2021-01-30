@@ -1,0 +1,6 @@
+[Master]
+https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase
+The primary reason for rebasing is to maintain a linear project history. 
+For example, consider a situation where the master branch has progressed since you started working on a feature branch. 
+You want to get the latest updates to the master branch in your feature branch, but you want to keep your branch's history clean 
+so it appears as if you've been working off the latest master branch.
