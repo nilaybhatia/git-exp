@@ -4,3 +4,13 @@ The primary reason for rebasing is to maintain a linear project history.
 For example, consider a situation where the master branch has progressed since you started working on a feature branch. 
 You want to get the latest updates to the master branch in your feature branch, but you want to keep your branch's history clean 
 so it appears as if you've been working off the latest master branch.
+
+
+
+
+
+
+
+[Master]
+Making some non-conflicing changes, adding these lines after the lines from dev (currently blank on master)
+Dev won't have this change yet, will try rebasing after checking out.
