@@ -6,7 +6,7 @@ int main(){
     /*
     Basic file for 1st commit, compiles
     */
-    cout << "Some more additions from master, compiles";
+    cout << "Some more additions from master, compiles. Writing from dev. Removed ';' at EOL. Won't compile but will pretend I don't know"
     /*
     Now will commit the above line and checkout a new dev branch
     */
