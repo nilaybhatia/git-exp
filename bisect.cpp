@@ -16,5 +16,9 @@ int main(){
    Will add a line, master doesn't have the breaking change, will compile
    */
     cout << "\n2nd addition from master. Compiles\n";
+    cout << "3rd addition from master, compiles\n";
+    /*P.S: Imagine these additions are coming from merging other feature branches.
+    Not good to directly commit on master like this.
+    */
     return 0;
 }
