@@ -21,5 +21,14 @@ int main(){
    Will checkout master and make some changes just so that tree diverges and it's easier
    to visualize.
    */
+
+    /*Ran the following
+    git bisect start
+    git bisect bad
+    git bisect good 92189aa
+    Then git checked out a few commits sutomatically and asked whether they were good or bad
+    Then said b60c4a1 was the 1st bad commit and checked it out
+    Can also automate this with git bisect run
+    */
     return 0;
 }
