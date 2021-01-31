@@ -14,6 +14,12 @@ int main(){
    /*Now writing from dev.
    1st commit will be a working change (adding words on 1st cout) and the next one
    a breaking change (removing semicolon of 2nd cout, won't compile).
+   
+   Okay, committed the breaking change dev b60c4a1. Now will talk a bit about next steps.
+   (Not that the commit having this comment will still be a bad commit coz breaking change
+   hasn't been fixed yet.)
+   Will checkout master and make some changes just so that tree diverges and it's easier
+   to visualize.
    */
     return 0;
 }
