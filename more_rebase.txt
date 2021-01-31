@@ -23,3 +23,7 @@ with that commit directly in front of master's latest commit.
 [Dev]
 Now deleted the branch and recreated with the same name. Adding these lines to a new commit on dev.
 Will try to see what happens when running `git merge master` after adding some lines from master.
+
+[Master]
+Adding these lines. Now master has an extra commit that dev does not. Now will 
+commit this and switch to dev...
