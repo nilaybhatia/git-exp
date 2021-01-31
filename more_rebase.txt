@@ -27,3 +27,8 @@ Will try to see what happens when running `git merge master` after adding some l
 [Master]
 Adding these lines. Now master has an extra commit that dev does not. Now will 
 commit this and switch to dev...
+
+[Dev]
+Ran `git merge master`, fixed conflicts and committed. Now the branch-off in visualized tree isn't gone
+and there is a new commit named 'Fix conflict' on dev.
+Will commit these lines now.
