@@ -19,3 +19,11 @@ Dev won't have this change yet, will try rebasing after checking out.
 Ok, executed `git rebase master` and used command `git log --graph --oneline --all` to draw the tree before and after.
 Before, there was a branch in the tree with the commit "Add para from dev". Then after rebasing, the tree became linear
 with that commit directly in front of master's latest commit.
+
+
+
+
+
+[Master]
+Adding these lines. Now master has an extra commit that dev does not. Now will 
+commit this and switch to dev...
