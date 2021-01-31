@@ -19,3 +19,7 @@ Dev won't have this change yet, will try rebasing after checking out.
 Ok, executed `git rebase master` and used command `git log --graph --oneline --all` to draw the tree before and after.
 Before, there was a branch in the tree with the commit "Add para from dev". Then after rebasing, the tree became linear
 with that commit directly in front of master's latest commit.
+
+[Dev]
+Now deleted the branch and recreated with the same name. Adding these lines to a new commit on dev.
+Will try to see what happens when running `git merge master` after adding some lines from master.
