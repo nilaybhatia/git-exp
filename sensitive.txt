@@ -1,3 +1,5 @@
 This file will contain some fake sensitive data which will
 be committed and pushed to remote
 
+USER_NAME: user
+PASSWORD: passpass
