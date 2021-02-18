@@ -1,0 +1,4 @@
+Situation:
+
+Branch was checked out from a commit on local master. Then there were some commits on origin/master. Current branch
+needed those commits from origin/master, but forgot and instead pushed feature to remote. (Doing it now...)
