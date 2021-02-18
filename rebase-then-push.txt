@@ -2,3 +2,7 @@ Situation:
 
 Branch was checked out from a commit on local master. Then there were some commits on origin/master. Current branch
 needed those commits from origin/master, but forgot and instead pushed feature to remote. (Doing it now...)
+
+Okay, pushed to origin but now realized, need that file from origin master coz check failed.
+What I did: Checkout local master, pull origin/master. Then checkout feature, git rebase master, git push feature.
+Will commit and do all this now.
