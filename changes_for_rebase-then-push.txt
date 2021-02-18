@@ -1,0 +1,2 @@
+This is a change on origin/master (reallistically would have come from merging somebody else's PR). The local as well as remote feature branch rebase-then-push wouldn't have it.
+But this file is needed on feature, committing now.
