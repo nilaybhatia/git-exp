@@ -21,3 +21,6 @@ Now origin/rebase-then-push has 2 duplicate commits (the very 1st commit on this
 to file") with the same text but different commit hashes. Also, the commit "Create changes_for_rebase-then-push.txt" from master
 has been duplicated on this branch too.
 
+What happened: SO link: https://stackoverflow.com/questions/9264314/git-commits-are-duplicated-in-the-same-branch-after-doing-a-rebase
+
+Rebase wan't required, just use merge.
