@@ -1,1 +1,2 @@
 https://www.atlassian.com/git/tutorials/git-hooks
+Printing $COMMIT_SOURCE, $SHA1
