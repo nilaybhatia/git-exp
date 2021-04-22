@@ -1,2 +1,2 @@
 https://www.atlassian.com/git/tutorials/git-hooks
-Printing $COMMIT_SOURCE, $SHA1
+Printing $COMMIT_SOURCE, $SHA1, didn't work, deferred to later. Maybe coz SHA generated after editor is closed? IDTS
