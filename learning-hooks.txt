@@ -6,3 +6,8 @@ when you run git clone.
 They can, however, make it much easier for developers to adhere to certain guidelines.
 All of the pre- hooks let you alter the action that’s about to take place,
 while the post- hooks are used only for notifications.
+
+Server side hooks reside in the remote .git/hooks repo. Remote repo is not necessarily on GitHub,
+can be set up on a local server as well: https://www.inmotionhosting.com/support/website/git/setting-up-your-remote-repository-with-git/
+
+Configuring git hooks for all devs: https://stackoverflow.com/questions/66228019/how-to-configure-git-hooks-for-all-developers
