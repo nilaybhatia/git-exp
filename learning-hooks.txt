@@ -11,3 +11,7 @@ Server side hooks reside in the remote .git/hooks repo. Remote repo is not neces
 can be set up on a local server as well: https://www.inmotionhosting.com/support/website/git/setting-up-your-remote-repository-with-git/
 
 Configuring git hooks for all devs: https://stackoverflow.com/questions/66228019/how-to-configure-git-hooks-for-all-developers
+
+https://pre-commit.com/#using-the-latest-version-for-a-repository --> for configuring pre-commits for all users seamlessly
+It's better to fix everything (i.e formatting issues) before even committing rather than commit, push, receive feedback/fail build, fix,
+recommit
