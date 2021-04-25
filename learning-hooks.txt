@@ -1,0 +1,17 @@
+https://www.atlassian.com/git/tutorials/git-hooks
+Printing $COMMIT_SOURCE, $SHA1, didn't work, deferred to later. Maybe coz SHA generated after editor is closed? IDTS
+Hooks are local to any given Git repository, and they are not copied over to the new repository
+when you run git clone.
+...remember that each developer can alter their own local hooks, so you can’t use them as a way to enforce a commit policy.
+They can, however, make it much easier for developers to adhere to certain guidelines.
+All of the pre- hooks let you alter the action that’s about to take place,
+while the post- hooks are used only for notifications.
+
+Server side hooks reside in the remote .git/hooks repo. Remote repo is not necessarily on GitHub,
+can be set up on a local server as well: https://www.inmotionhosting.com/support/website/git/setting-up-your-remote-repository-with-git/
+
+Configuring git hooks for all devs: https://stackoverflow.com/questions/66228019/how-to-configure-git-hooks-for-all-developers
+
+https://pre-commit.com/#using-the-latest-version-for-a-repository --> for configuring pre-commits for all users seamlessly
+It's better to fix everything (i.e formatting issues) before even committing rather than commit, push, receive feedback/fail build, fix,
+recommit
