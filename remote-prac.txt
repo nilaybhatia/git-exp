@@ -6,7 +6,7 @@ origin  https://github.com/nilaybhatia/git-exp.git (fetch)
 origin  https://github.com/nilaybhatia/git-exp.git (push)
 The current local repo on laptop.
 
-Will try to create 
+Will try to create
 i. another repo on laptop which will have current repo as remote (i.e local remote)
 ii. a new repo in phone which will have the current repo in laptop as remote (i.e on the network)
 
@@ -20,3 +20,26 @@ Then did `git pull local-origin remote-prac`. This pulled the branch from origin
 This local remote-prac has the commit ("Committing from original local repo on laptop") from the original as expected.
 Will commit this text on the remote-prac branch and then will do `git push local-origin remote-prac`. This para
 should then appear in the original local repo (git-exp).
+
+[Typing from original local repo on laptop]
+I initially push from that new repo as written above but got the message:
+remote: error: refusing to update checked out branch: refs/heads/remote-prac
+remote: error: By default, updating the current branch in a non-bare repository
+remote: is denied, because it will make the index and work tree inconsistent
+remote: with what you pushed, and will require 'git reset --hard' to match
+remote: the work tree to HEAD.
+remote:
+remote: You can set the 'receive.denyCurrentBranch' configuration variable
+remote: to 'ignore' or 'warn' in the remote repository to allow pushing into
+remote: its current branch; however, this is not recommended unless you
+remote: arranged to update its work tree to match what you pushed in some
+remote: other way.
+remote:
+remote: To squelch this message and still keep the default behaviour, set
+remote: 'receive.denyCurrentBranch' configuration variable to 'refuse'.
+To /home/nilay/git-exp
+ ! [remote rejected] remote-prac -> remote-prac (branch is currently checked out)
+
+So we can't push to a branch in remote which is currenly checked out in remote. So I temporarily switched to master on original,
+pushed successfully from new and switched to remote-prac on orignal and as expected the para from the new repo is there.
+Now will push current branch to current branch's origin (github repo).
