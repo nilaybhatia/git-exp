@@ -1,0 +1,14 @@
+[Typing from original local repo on laptop]
+Will attempt to do the following:
+
+There are already the following repos:
+origin  https://github.com/nilaybhatia/git-exp.git (fetch)
+origin  https://github.com/nilaybhatia/git-exp.git (push)
+The current local repo on laptop.
+
+Will try to create 
+i. another repo on laptop which will have current repo as remote (i.e local remote)
+ii. a new repo in phone which will have the current repo in laptop as remote (i.e on the network)
+
+I am committing this sentence from original local repo. When I create the new local repo (i) on laptop and then
+pull, this statement and its associated commit should automatically appear.
