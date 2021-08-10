@@ -43,3 +43,5 @@ To /home/nilay/git-exp
 So we can't push to a branch in remote which is currenly checked out in remote. So I temporarily switched to master on original,
 pushed successfully from new and switched to remote-prac on orignal and as expected the para from the new repo is there.
 Now will push current branch to current branch's origin (github repo).
+
+Good read: http://git-scm.com/book/en/v2/Git-on-the-Server-The-Protocols
