@@ -12,3 +12,11 @@ ii. a new repo in phone which will have the current repo in laptop as remote (i.
 
 I am committing this sentence from original local repo. When I create the new local repo (i) on laptop and then
 pull, this statement and its associated commit should automatically appear.
+
+[Typing from the newly-created local repo on laptop]
+Init-ed a new git repo named git-exp-remote-prac and set the original local repo as the local-origin:
+git remote add local-origin /home/nilay/git-exp
+Then did `git pull local-origin remote-prac`. This pulled the branch from original local repo into new local repo.
+This local remote-prac has the commit ("Committing from original local repo on laptop") from the original as expected.
+Will commit this text on the remote-prac branch and then will do `git push local-origin remote-prac`. This para
+should then appear in the original local repo (git-exp).
