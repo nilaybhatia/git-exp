@@ -45,3 +45,9 @@ pushed successfully from new and switched to remote-prac on orignal and as expec
 Now will push current branch to current branch's origin (github repo).
 
 Good read: http://git-scm.com/book/en/v2/Git-on-the-Server-The-Protocols
+
+[Typing from cloned repo in mobile]
+The original repo was cloned using ssh like this:
+git clone ssh://nilay@192.168.71.3:/home/nilay/git-exp
+After turning off mobile data, made a commit on original, then did 
+git pull origin remote-prac and got the change here as well.
