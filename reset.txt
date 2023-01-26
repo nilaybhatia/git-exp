@@ -1,1 +1,8 @@
-Learning git reset
+Learning git reset using https://www.atlassian.com/git/tutorials/undoing-changes/git-reset
+The three trees of git are:
+1. Working tree
+2. Staging index
+3. Commit tree
+append content
+--soft does not touch the Staging Index, so the updates to our Staging Index followed us back in time through the commit history.
+As a reminder, git status does not show the state of 'the three trees', it essentially shows a diff between them.
