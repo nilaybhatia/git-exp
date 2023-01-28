@@ -1,14 +1,14 @@
 [Master]
 https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase
-The primary reason for rebasing is to maintain a linear project history. 
-For example, consider a situation where the master branch has progressed since you started working on a feature branch. 
-You want to get the latest updates to the master branch in your feature branch, but you want to keep your branch's history clean 
+The primary reason for rebasing is to maintain a linear project history.
+For example, consider a situation where the master branch has progressed since you started working on a feature branch.
+You want to get the latest updates to the master branch in your feature branch, but you want to keep your branch's history clean
 so it appears as if you've been working off the latest master branch.
 
 [Dev]
-You have two options for integrating your feature into the master branch: merging directly or rebasing and then merging. 
+You have two options for integrating your feature into the master branch: merging directly or rebasing and then merging.
 The former option results in a 3-way merge and a merge commit, while the latter results in a fast-forward merge and a perfectly linear history.
-Rebasing is a common way to integrate upstream changes into your local repository. Pulling in upstream changes with Git merge results in a superfluous merge commit every time you want to see how the project has progressed. 
+Rebasing is a common way to integrate upstream changes into your local repository. Pulling in upstream changes with Git merge results in a superfluous merge commit every time you want to see how the project has progressed.
 On the other hand, rebasing is like saying, “I want to base my changes on what everybody has already done.”
 
 [Master]
@@ -25,7 +25,7 @@ Now deleted the branch and recreated with the same name. Adding these lines to a
 Will try to see what happens when running `git merge master` after adding some lines from master.
 
 [Master]
-Adding these lines. Now master has an extra commit that dev does not. Now will 
+Adding these lines. Now master has an extra commit that dev does not. Now will
 commit this and switch to dev...
 
 [Dev]

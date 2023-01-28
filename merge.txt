@@ -41,5 +41,5 @@ master * - * - [*   *   *   *]
 No new commit is created.
 Now commiting this explanation from master. Would look like this
    dev   * - * - * - * - *
-        /              
+        /
 master * - * - [*   *   *   *] - *
