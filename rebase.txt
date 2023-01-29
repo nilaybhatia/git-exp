@@ -22,7 +22,7 @@ Kept both changes.
 https://www.atlassian.com/git/tutorials/merging-vs-rebasing#local-cleanup
 1st change - simulating a local change
 2nd change - a change from master which branch `rebase` does not have
-3rd change
+3rd change - one more change
 
 Committing from Github directly (simulating remote change)
 A change from branch `rebase`. Now master and this branch are divergent
