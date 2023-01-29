@@ -18,3 +18,10 @@ make a conflicting change, and run git rebase master after switching back to dev
 Ok, same as merge, got a merge conflict, aborted.
 
 Kept both changes.
+
+https://www.atlassian.com/git/tutorials/merging-vs-rebasing#local-cleanup
+1st change - simulating a local change
+2nd change
+3rd change
+
+Committing from Github directly (simulating remote change)
