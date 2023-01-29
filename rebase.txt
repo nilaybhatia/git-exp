@@ -23,3 +23,5 @@ https://www.atlassian.com/git/tutorials/merging-vs-rebasing#local-cleanup
 1st change
 2nd change
 3rd change
+
+Committing from Github directly (simulating remote change)
