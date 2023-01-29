@@ -25,3 +25,4 @@ https://www.atlassian.com/git/tutorials/merging-vs-rebasing#local-cleanup
 3rd change
 
 Committing from Github directly (simulating remote change)
+A change from branch `rebase`. Now master and this branch are divergent
